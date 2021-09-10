@@ -67,6 +67,10 @@
     transition: 2s;
 }
 
+.ex-7-img:hover {
+    filter: saturate(0) sepia(100%);
+}
+
 .ex-8-img {
     width: 500px;
     transition: 2s;
