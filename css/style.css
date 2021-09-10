@@ -95,7 +95,18 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: ex_10 1s infinite linear reverse;
 }
+
+@keyframes ex_10 {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
